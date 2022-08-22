@@ -1,0 +1,16 @@
+.container {
+    width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.div1 {
+    width: 376px;
+    height: 1557px;
+    background-color: #525A65;
+}
+
+.div2 {
+    width: 1544px;
+    height: 80px;
+}
