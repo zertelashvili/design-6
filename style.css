@@ -8,9 +8,487 @@
     width: 376px;
     height: 1557px;
     background-color: #525A65;
+
+
+
 }
 
 .div2 {
     width: 1544px;
+    height: 1557px;
+    background-color: gray;
+    margin-left: 376px;
+    display: inline-block;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 0;
+
+
+}
+
+.title {
+    font-size: 30px;
+    color: #FFFFFF;
+    margin-top: 49px;
+    margin-left: 123px;
+
+}
+
+.list1 {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-top: 30px;
+    padding: 20px 150px 23px 45px;
+
+}
+
+.list1:hover {
+    background-color: #5C6879;
+}
+
+.divhome {
+    width: 314px;
+    height: 67px;
+    background-color: #5C6879;
+    margin-top: 54px;
+    /* padding: 25px 221px 24px  */
+    margin-left: 31px;
+    padding-top: 25px;
+    padding-right: 221px;
+    padding-bottom: 24px;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-left: 45px;
+
+}
+
+.divtop {
+    width: 1544;
     height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.a {
+    font-size: 55px;
+    color: #5A5A5A;
+
+    margin-left: 22px;
+
+
+}
+
+.divc {
+    font-size: 16px;
+    color: #5A5A5A;
+}
+
+.divforimg {
+    width: 340px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 67px;
+}
+
+.total {
+    width: 1456px;
+    height: 214px;
+    background-color: white;
+    margin-top: 42px;
+    margin-left: 36px;
+    margin-right: 52px;
+    display: flex;
+
+
+
+
+}
+
+.usages {
+    width: 340px;
+    height: 214px;
+    background-color: lightgray;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+
+
+
+
+
+
+}
+
+.line {
+    border: 2px solid #83BEDF;
+    width: 40px;
+    margin-top: 11px;
+
+
+}
+
+.kitxvisnish {
+    margin-top: 41px;
+
+}
+
+.p90 {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+
+
+}
+
+.box {
+    display: flex;
+
+}
+
+.impression {
+    width: 340px;
+    height: 214px;
+    background-color: lightgray;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 15px;
+
+
+}
+
+.kitxvisnish2 {
+    margin-top: 41px;
+
+}
+
+.box2 {
+    display: flex;
+}
+
+.p10002 {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+
+}
+
+.totalsale {
+    width: 370px;
+    height: 214px;
+    background-color: lightgray;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+.kitxvisnish3 {
+    margin-top: 41px;
+
+}
+
+.box3 {
+    display: flex;
+}
+
+.p1200 {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+.totalprofit {
+    width: 380px;
+    height: 214px;
+    background-color: lightgray;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 15px;
+
+}
+
+.kitxvisnish4 {
+    margin-top: 41px;
+
+}
+
+.p8000 {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.box4 {
+    display: flex;
+}
+
+/* .rp1 {
+    width: 946px;
+    height: 537px;
+    background-color: lightgray;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 42px;
+
+} */
+.rp1 {
+    margin-top: 28px;
+    margin-left: 25px;
+}
+
+.statistics {
+    width: 485px;
+    height: 537px;
+    background-color: #FFFFFF;
+    margin-top: 34px;
+    margin-left: 38px;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+
+    color: #5A5A5A;
+
+
+}
+
+.box5 {
+    display: flex;
+
+}
+
+.wre {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    /* border: 20px solid green; */
+    margin-left: 36px;
+    margin-top: 60px;
+    border-top: 20px solid #935CCB;
+    border-bottom: 20px solid #43E0AA;
+    border-left: 20px solid #24AEFC;
+    border-right: 20px solid #43E0AA;
+    transform: rotate(-10deg);
+
+}
+
+.lilbox {
+    width: 10px;
+    height: 10px;
+    background-color: #935CCB;
+    margin-top: -10px;
+    margin-left: 315px;
+
+
+
+
+
+
+
+}
+
+.lilbox2 {
+    width: 10px;
+    height: 10px;
+    background-color: #935CCB;
+    margin-top: 10px;
+    margin-left: 315px;
+
+
+}
+
+.lilbox3 {
+    width: 10px;
+    height: 10px;
+    background-color: #935CCB;
+    margin-top: 10px;
+    margin-left: 315px;
+    margin-bottom: 50px;
+
+}
+
+.conection {
+    width: 713px;
+    height: 489px;
+    background-color: #FFFFFF;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 32px;
+
+
+}
+
+.photo {
+    width: 215px;
+    height: 69px;
+    margin-top: 47px;
+
+
+
+}
+
+.name2 {
+    font-size: 18px;
+    color: #555555;
+    margin-top: -50px;
+
+
+
+
+}
+
+.profession {
+    font-size: 14px;
+    color: #5C6879;
+
+
+}
+
+.pt {
+    margin-top: 47px;
+
+
+}
+
+.sm {
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.name5 {
+    font-size: 18px;
+    color: #555555;
+    margin-top: -50px;
+
+
+
+
+}
+
+.profession5 {
+    font-size: 14px;
+    color: #5C6879;
+
+
+}
+
+.pt5 {
+    margin-top: 47px;
+
+
+}
+
+.sm5 {
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+
+
+.todolist {
+    width: 713px;
+    height: 488px;
+    background-color: #FFFFFF;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 32px;
+
+}
+
+.box6 {
+    display: flex;
+}
+
+.name6 {
+    font-size: 18px;
+    color: #555555;
+    margin-top: -50px;
+
+
+
+
+}
+
+.profession6 {
+    font-size: 14px;
+    color: #5C6879;
+
+
+}
+
+.pt6 {
+    margin-top: 47px;
+
+
+}
+
+.sm6 {
+    margin-left: 80px;
+    margin-top: -50px;
+}
+
+.todolist {
+    width: 745px;
+    height: 489px;
+    background-color: #FFFFFF;
+    padding-top: 28px;
+    padding-left: 39px;
+    padding-right: 217px;
+    font-size: 18px;
+    margin-left: 36px;
+    margin-top: 32px;
+
+}
+
+.box6 {
+    display: flex;
+}
+
+.checkbox {
+    width: 30px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 5px;
+}
+
+.txt {
+    font-size: 17px;
+    color: #555555;
+
+
+}
+
+.checkbox2 {
+    width: 30px;
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 5px;
+
+
 }
